@@ -1,0 +1,50 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(150deg,rgb(32, 91, 219)50%, rgb(243, 144, 15)50%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+#containerFoto {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    padding:10px;
+    background-color: rgb(240, 240, 240);
+    height: 310px;
+    width: 250px;
+    border-radius: 20px;
+
+}
+
+#fotoPerfil { 
+    align-self: center;
+    max-width: 50%;
+    border-radius: 100px;
+}
+
+#nome {
+    font-weight: bold;
+}
+
+#buttonPerfil {
+    align-self: center;
+    height: 28px;
+    width: 90px;
+    background-color: rgb(243, 144, 15);
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
